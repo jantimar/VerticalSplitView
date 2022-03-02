@@ -5,16 +5,13 @@ import PackageDescription
 
 let package = Package(
     name: "VerticalSplitView",
-    platforms: [
-        .iOS(.v14)
-    ],
+    platforms: [.iOS(.v14)],
     products: [
         .library(
             name: "VerticalSplitView",
             targets: ["VerticalSplitView"]),
     ],
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "VerticalSplitView",
